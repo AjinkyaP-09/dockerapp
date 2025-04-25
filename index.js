@@ -3,11 +3,11 @@ const express = require('express');
 const app = express();
 
 
-// Respond with "Hello World" when a GET request is made to the root "/"
+// sfRespond with "Hello World" when a GET request is made to the root "/"
 
 app.get('/', (req, res) => {
 
-  res.send('Hello from Nodejs App');
+  res.send('Hello from Nodejs App of ajinkya pame');
 
 });
 
@@ -21,6 +21,4 @@ app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 
 });
-
-
 module.exports = app;
